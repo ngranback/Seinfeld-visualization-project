@@ -94,7 +94,7 @@ body {
   display: table;
 }
 img:hover {
-    animation: shake 0.2s;
+    animation: shake 0.1s;
 }
   
   @keyframes shake {
@@ -113,6 +113,7 @@ img:hover {
 
 #Elaine {
   border-radius: 50%;
+   
 }
 
 #George {
