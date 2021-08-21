@@ -21,14 +21,13 @@ def home():
     # Find character data from mongo
     output = []
     for character in finalquery.find():
-        output.append({"name" : character["_id"], "lines_per_episode" : character["Lines_per_episode"], 
-        "lines_per_writer" : character["Lines_per_writer"], "lines_per_season" : character["Lines_per_season"] })
+        output.append({"name" : character["_id"], "lines_per_episode" : character["Lines_per_episode"], "lines_per_writer" : character["Lines_per_writer"], "lines_per_season" : character["Lines_per_season"] })
     
     
     #character_info = finalquery.find()
    
     #return template and data
-    return render_template("home.html", character_info = output)
+    return render_template("index.html", character_info = output)
 
 
 # Route to render character template
@@ -37,13 +36,12 @@ def home():
 def get_one_character(name):
 
     # Codes to pull data
-    character = finalquery.find_one({"name" : _id} ) 
+    character = finalquery.find_one({"_id" : name} ) 
     if character:
-        output = {"name" : character["_id"], "lines_per_episode" : character["Lines_per_episode"], 
-        "lines_per_writer" : character["Lines_per_writer"], "lines_per_season" : character["Lines_per_season"]}
+        output = {"name" : character["_id"], "lines_per_episode" : character["Lines_per_episode"], "lines_per_writer" : character["Lines_per_writer"], "lines_per_season" : character["Lines_per_season"]}
 
     #return template and data
-    return render_template("character.html")
+    return render_template("characters.html")
 
 
 
