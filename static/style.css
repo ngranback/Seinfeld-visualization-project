@@ -93,7 +93,8 @@ body {
   clear: both;
   display: table;
 }
-img:hover {
+
+.column:hover {
     animation: shake 0.1s;
 }
   
@@ -111,28 +112,35 @@ img:hover {
     100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
+
+
 #Elaine {
   border-radius: 50%;
+  animation: shake 0.1s;
+
    
 }
 
 #George {
   border-radius: 50%;
+  animation: shake 0.1s;
 }
 
 #Kramer {
     border-radius: 50%;
+    animation: shake 0.1s;
 
 }
 
 #Jerry {
     border-radius: 50%;
+    animation: shake 0.1s;
  
 }
 
 #character {
     background-color: transparent;
-    opacity: 0.95;
+    opacity: 0.80;
     border: 2px solid white;
 
 }
@@ -140,28 +148,28 @@ img:hover {
 #fig1 {
     background-color: transparent;
     opacity: 0.80;
-    border: 2px solid white;
+    margin-left: 125px;
 
 }
 
 #fig2 {
     background-color: transparent;
     opacity: 0.80;
-    border: 2px solid white;
 
 }
 
 #fig3 {
     background-color: transparent;
     opacity: 0.80;
-    padding: 100px;
+    padding: 80px;
+    margin-left: 120px;
 
 }
 
 #fig4 {
     background-color: transparent;
     opacity: 0.80;
-    padding: 100px;
+    padding: 80px;
 
 }
 
