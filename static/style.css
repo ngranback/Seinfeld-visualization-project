@@ -39,15 +39,6 @@ body {font-family: Arial, Helvetica, sans-serif, cursive;}
   body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
 
-.bg-img {
-  background-image: url("Seinfeld_logo.svg.png");
-  min-height: 300px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 50% 100%;
-  position: relative;
-}
-
 .container {
   position: absolute;
   margin: 20px;
@@ -112,12 +103,19 @@ body {
     100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
+button {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
 
 
 #Elaine {
   border-radius: 50%;
   animation: shake 0.1s;
-
    
 }
 
@@ -138,38 +136,32 @@ body {
  
 }
 
-#character {
-    background-color: transparent;
-    opacity: 0.80;
+#Chart1 {
+    background-color: white;
     border: 2px solid white;
+}
+
+#Chart2 {
+    background-color: white;
+    margin: center;
 
 }
 
-#fig1 {
-    background-color: transparent;
-    opacity: 0.80;
-    margin-left: 125px;
+#Chart3 {
+  background-color: white;
+  margin: center;
 
 }
 
-#fig2 {
-    background-color: transparent;
-    opacity: 0.80;
+#Chart4 {
+  background-color: white;
+  margin: center;
 
 }
 
-#fig3 {
-    background-color: transparent;
-    opacity: 0.80;
-    padding: 80px;
-    margin-left: 120px;
-
-}
-
-#fig4 {
-    background-color: transparent;
-    opacity: 0.80;
-    padding: 80px;
+#Chart5{
+   background-color: white;
+   margin: auto;
 
 }
 
