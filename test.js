@@ -506,7 +506,7 @@ var Chart1 = new Chart(chart1, {
     plugins: {
       title: {
         display: true,
-        text: 'Chart 1a Jerry ',
+        text: 'Jerry Lines per Episode vs. Episode Rating ',
         font: {
           size: 20,
           weight: 'bold',
@@ -523,7 +523,7 @@ var Chart1 = new Chart(chart1, {
         beginAtZero: true,
         title: {
           display: true,
-          text: 'Dialouges',
+          text: 'Number of Character Lines',
           color: '#000',
           font: {
             size: 20,
@@ -790,7 +790,7 @@ var Chart1 = new Chart(chart1, {
 
 function showElem(number) {
   if (number == 1) {
-    Chart1.options.plugins.title.text = 'Chart 1 Jerry';
+    Chart1.options.plugins.title.text = 'Jerry Number of Lines per Episode vs. Episode Rating';
     var data = Chart1.config.data;
     console.log(data);
     data.datasets[0].data = JerryXY;
@@ -800,7 +800,7 @@ function showElem(number) {
     Chart1.update();
   }
   if (number == 2) {
-    Chart1.options.plugins.title.text = 'Chart 1 George';
+    Chart1.options.plugins.title.text = 'George Number of Lines per Episode vs. Episode Rating';
     var data = Chart1.config.data;
     console.log(data);
     data.datasets[0].data = GeorgeXY;
@@ -810,7 +810,7 @@ function showElem(number) {
     Chart1.update();
   }
   if (number == 3) {
-    Chart1.options.plugins.title.text = 'Chart 1 Elaine';
+    Chart1.options.plugins.title.text = 'Elaine Number of Lines per Episode vs. Episode Rating';
     var data = Chart1.config.data;
     console.log(data);
     data.datasets[0].data = ElaineXY;
@@ -821,11 +821,11 @@ function showElem(number) {
   }
 
   if (number == 4) {
-    Chart1.options.plugins.title.text = 'Chart 1 Krammer';
+    Chart1.options.plugins.title.text = 'Kramer Number of Lines per Episode vs. Episode Rating';
     var data = Chart1.config.data;
     console.log(data);
     data.datasets[0].data = KrammerXY;
-    data.datasets[0].label = 'Krammer';
+    data.datasets[0].label = 'Kramer';
     data.datasets[0].backgroundColor = ['rgb(93,159,229,0.5)'];
     data.datasets[0].hoverBackgroundColor = ['rgb(93,159,229)'];
     Chart1.update();
@@ -859,7 +859,7 @@ var Chart2 = new Chart(chart2, {
         borderWidth: 1,
       },
       {
-        label: 'Krammer',
+        label: 'Kramer',
         data: KrammerLinesPerSeason,
         backgroundColor: ['rgb(93,159,229)'],
         borderWidth: 1,
@@ -871,7 +871,7 @@ var Chart2 = new Chart(chart2, {
     plugins: {
       title: {
         display: true,
-        text: 'Chart 2',
+        text: 'Number of Character Lines per Season',
         font: {
           size: 20,
           weight: 'bold',
@@ -885,7 +885,7 @@ var Chart2 = new Chart(chart2, {
         beginAtZero: true,
         title: {
           display: true,
-          text: 'Lines',
+          text: 'Number of Character Lines',
           color: '#000',
           font: {
             size: 20,
@@ -937,7 +937,7 @@ var Chart3 = new Chart(chart3, {
         borderWidth: 1,
       },
       {
-        label: 'Krammer',
+        label: 'Kramer',
         data: KrammerLinesPerWriter,
         backgroundColor: ['rgb(93,159,229)'],
         borderWidth: 1,
@@ -948,7 +948,7 @@ var Chart3 = new Chart(chart3, {
     plugins: {
       title: {
         display: true,
-        text: 'Chart 3',
+        text: 'Top 6 Writers Percentage of Character Lines',
         font: {
           size: 20,
           weight: 'bold',
@@ -1009,7 +1009,7 @@ var Chart4 = new Chart(chart4, {
     plugins: {
       title: {
         display: true,
-        text: 'Chart 4',
+        text: 'Timeline of Episode Ratings',
         font: {
           size: 20,
           weight: 'bold',
@@ -1088,7 +1088,7 @@ var trace6 = {
 
 var layout = {
   title: {
-    text: 'Chart 5',
+    text: 'Top 6 Writers Episode Ratings',
     font: {
       family: 'Courier New, monospace',
       size: 24,
