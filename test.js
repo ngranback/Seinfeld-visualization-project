@@ -569,8 +569,9 @@ var Chart1 = new Chart(chart1, {
     maintainAspectRatio: false,
     scales: {
       y: {
-        beginAtZero: true,
-        title: {
+          beginAtZero: true,
+          max: 200,
+          title: {
           display: true,
           text: 'Number of Character Lines',
           color: '#000',
