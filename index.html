@@ -8,7 +8,7 @@
     <script type="text/javascript" src="js/lib/jquery-2.2.0.min.js"></script>
     <script type="text/javascript" src="js/functions.js"></script>
     <script src="https://d3js.org/d3.v5.min.js"></script>
-    <title>Seinfeld</title>
+    <title>Seinfeld Project</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -19,30 +19,29 @@
     <div class="bg-img"></div>
   </head>
   <body>
+    <h2 style="text-align:center">Select a Character:</h2>
     <div
       id="chart1container"
-      style="position: relative; margin: auto; height: 60vh; width: 80vw"
-    >
+      style="position: relative; margin: auto; height: 60vh; width: 80vw">
     <div class="row">
       <div class="column"></div>
     <div class="column">
-      <button onclick="showElem(3)"><img src="static/879-8794059_saturday-read-4-how-do-you-fit-seinfeld.png" alt ="Elaine" id="Elaine" style="width:260px"></button>
+      <button onclick="showElem(3)"><img src="static/879-8794059_saturday-read-4-how-do-you-fit-seinfeld.png" alt ="Elaine" id="Elaine" style="width:240px"></button>
       </div>
     <div class="column">
-      <button onclick="showElem(4)"><img src="static/174-1747591_seinfeld-scripts-kramer-avatar-michael-richards-kramer_adobespark.png" alt="Kramer" id="Kramer" style="width:260px"></a></button>
+      <button onclick="showElem(4)"><img src="static/174-1747591_seinfeld-scripts-kramer-avatar-michael-richards-kramer_adobespark.png" alt="Kramer" id="Kramer" style="width:250px"></a></button>
     </div>
     <div class="column">
-      <button onclick="showElem(1)"><img src="static/174-1747642_jerry-seinfeld-headshot-black-and-white-jerry-seinfeld_adobespark.png" alt="Jerry" id="Jerry" style="width:260px"></a></button>
+      <button onclick="showElem(1)"><img src="static/174-1747642_jerry-seinfeld-headshot-black-and-white-jerry-seinfeld_adobespark.png" alt="Jerry" id="Jerry" style="width:250px"></a></button>
     </div>
     <div class="column">
-      <button onclick="showElem(2)"><img src="static/George-costanza_adobespark.png" alt="George" id="George" style="width:260px"></a></button>
+      <button onclick="showElem(2)"><img src="static/George-costanza_adobespark.png" alt="George" id="George" style="width:250px"></a></button>
     </div>
       <div class="column"></div>
   </div>
-      <canvas id="Chart1"></canvas>
-    </div>
-    <div class="row"></div>
-    <div style="position: relative; margin: auto; height: 60vh; width: 80vw">
+  <br></br>
+    <canvas id="Chart1"></canvas>
+  </div>
     <br></br>
     <br></br>
     <br></br>
@@ -50,42 +49,31 @@
     <br></br>
     <br></br>
     <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-      <canvas id="Chart2"></canvas>
-      <div class="row"></div>
-    </div>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <div style="position: relative; margin: auto; height: 60vh; width: 80vw">
-      <canvas id="Chart3"></canvas>
-    </div>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <div style="position: relative; margin: auto; height: 60vh; width: 80vw">
-      <canvas id="Chart4"></canvas>
-    </div>
-    <br></br>
-    <br></br>
-    <br></br>
-    <div style="position: relative; margin: auto; height: 70vh; width: 80vw">
-      <div id="Chart5" style="height: auto"></div>
-    </div>
+  <div style="position: relative; margin: auto; height: 60vh; width: 80vw">
+    <canvas id="Chart2"></canvas>
+  </div>
+  <hr></hr>
+  <div style="position: relative; margin: auto; height: 60vh; width: 80vw">
+    <canvas id="Chart3"></canvas>
+  </div>
+<hr>
+<div style="position: relative; margin: auto; height: 60vh; width: 80vw">
+  <canvas id="Chart4"></canvas>
+</div>
+<br></br>
+  </div>
+  <div style="position: relative; margin: auto; height: 60vh; width: 80vw">
+    <div id="Chart5" style="margin: auto" >
+</div>
+<br></br>
   </body>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js"></script>
-  <script src="./test.js"></script>
-  <script src="./app.js"></script>
+<footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js"></script>
+    <script src="./test.js"></script>
+    <script src="./app.js"></script>
+    <div class="text-center" id="footer" style="bottom:0"> 
+      <script src="https://d3js.org/d3.v5.min.js"></script>
+      <p>@ Copyright Nella, Ang, Ahmed, and Jarice</p>
+      </div>
+  </footer>
 </html>

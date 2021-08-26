@@ -3,7 +3,7 @@ body {font-family: Arial, Helvetica, sans-serif, cursive;}
 
 .bg-img {
     background-image: url("Seinfeld_logo.svg.png");
-    min-height: 300px;
+    min-height: 290px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50% 100%;
@@ -72,7 +72,7 @@ body {font-family: Arial, Helvetica, sans-serif, cursive;}
 
 body {
  background-image: url("seinfeld-wallpaper-preview.jpg");
- background-color: #cccccc;
+ background-color: transparent;
  background-position: left top;
  background-repeat: no-repeat;
  background-size: cover;
@@ -109,7 +109,7 @@ button {
   border: none;
   cursor:pointer;
   overflow: hidden;
-  outline:none;
+  outline: transparent;
 }
 
 
@@ -137,43 +137,41 @@ button {
 }
 
 #Chart1 {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.975);
     border: 2px solid white;
+    border-radius: 3%;
 }
 
 #Chart2 {
-    background-color: white;
+  background-color: rgba(255, 255, 255, 0.975);
     margin: center;
+    border-radius: 3%;
 
 }
 
 #Chart3 {
-  background-color: white;
-  margin: center;
+  background-color: rgba(255, 255, 255, 0.975);
+  border-radius: 3%;
 
 }
 
 #Chart4 {
-  background-color: white;
-  margin: center;
+  background-color: rgba(255, 255, 255, 0.975);
+  border-radius: 3%;
 
 }
 
-#Chart5{
-   background-color: white;
-   margin: auto;
-
-}
-
-#character {
-    background-color: transparent;
-    opacity: 0.50;
-
+#Chart5 {
+  background-color: rgba(255, 255, 255, 0.975);
+   border-radius: 3%;
 }
 
 h2 {
-  text-shadow: 4px 4px 6px #000000;
-  font-size: 1.8em;
+  background-color: transparent;
+  color: #e0eff2;
+  font-family: 'Brush Script MT', cursive;
+  text-shadow: -4px 3px 0 #000000, -14px 7px 0 #0a0e27;
+  font-size: 2.8em;
   margin-top: 0.83em;
   margin-bottom: 0.83em;
   margin-left: 0;
@@ -190,3 +188,5 @@ h2 {
   color: rgb(255, 255, 255);
   text-align: center;
 }
+
+
