@@ -1,10 +1,10 @@
-#Seinfeld Visualization Project
+# Seinfeld Visualization Project
 
 This project will utilize the dataset that was created and cleaned in a separate project.
 See: https://github.com/ngranback/ETL-mini-project
 
 
-##What Are The Makings of a Great Seinfeld Episode?
+## What Are The Makings of a Great Seinfeld Episode?
 
 First we brainstormed a list of questions that we would like to investigate and hopefully answer with meaningful visualizations.
 - Rating vs Character Lines --- Who speaks the most in highly rated episodes?
