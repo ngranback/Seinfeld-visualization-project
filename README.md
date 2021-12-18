@@ -1,6 +1,7 @@
 # Seinfeld Visualization Project
 
 This project will utilize the dataset that was created and cleaned in a separate project.
+
 See: https://github.com/ngranback/ETL-mini-project
 
 
